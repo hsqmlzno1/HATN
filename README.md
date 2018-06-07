@@ -1,6 +1,6 @@
 # HATN
 
-Sorry that the code will be public in the early July since I'm prepared for PhD Qualified Examination😭.
+Sorry that the code will be public in the early July since I'm preparing for PhD Qualified Examination😭.
 
 Data and source code for our AAAI'18 paper "[Hierarchical Attention Transfer Network for Cross-domain Sentiment Classification](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16873/16149)"
 
