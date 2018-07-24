@@ -50,7 +50,7 @@ python train_hatn.py --train --test -s dvd [source_domain] -t electronics [targe
 
 # Citation
 
-If the code is useful for your research, please cite our paper as follows:
+If the data and the code is useful for your research, please cite our paper as follows:
 
 ```
 @inproceedings{li2018hatn,
