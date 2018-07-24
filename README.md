@@ -1,6 +1,6 @@
 # HATN
 
-Data and source code for our AAAI'18 paper "[Hierarchical Attention Transfer Network for Cross-domain Sentiment Classification](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16873/16149)"
+Data and source code for our AAAI'18 paper "[Hierarchical Attention Transfer Network for Cross-domain Sentiment Classification](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16873/16149)". 
 
 # Requirements
 + Python 2.7.5
@@ -31,17 +31,21 @@ Centos:
 setenv PYTHONPATH /path/to/HATN
 ```
 
-#### Individual attention learning
+#### Individual attention learning: 
+The goal is to automatically capture pos/neg pivots as a bridge across domains based on PNet, which provides the inputs and labels for NPnet. If the pivots are already obtained, you can ignore this step.
+
 ```
 python extract_pivots.py --train --test -s dvd [source_domain] -t electronics [target_domain] -v [verbose]
 ```
 #### Joint attention learning
+PNet and NPnet are jointly for cross-domain sentiment classification. When there exists large domain discrepany, it can demonstrate the efficacy of NPnet.
+
 ```
 python train_hatn.py --train --test -s dvd [source_domain] -t electronics [target_domain] -v [verbose]
 ```
 #### Training over all transfer pairs
 ```
-./all_train_hatn.sh
+./all_train.sh
 ```
 
 # Citation
