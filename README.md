@@ -33,18 +33,16 @@ setenv PYTHONPATH /path/to/HATN
 
 #### Individual attention learning
 ```
-python extract_pivots.py --train --test -s [source_domain] -t [target_domain] -v [verbose]
+python extract_pivots.py --train --test -s dvd [source_domain] -t electronics [target_domain] -v [verbose]
 ```
 #### Joint attention learning
 ```
-python train_hatn.py --train --test -s [source_domain] -t [target_domain] -v [verbose]
+python train_hatn.py --train --test -s dvd [source_domain] -t electronics [target_domain] -v [verbose]
 ```
 #### Training over all transfer pairs
 ```
 ./all_train_hatn.sh
 ```
-
-
 
 # Citation
 
