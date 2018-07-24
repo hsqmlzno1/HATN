@@ -113,7 +113,8 @@ if __name__ == "__main__":
                 p = float(epoch - 1) / FLAGS.max_epoch
                 lr    = max(0.005 / (1. + 10 * p) ** 0.75, 0.002)
                 adapt = min(2. / (1. + np.exp(-10. * p)) - 1, 0.1)
-                print('adapt',adapt,'lr',lr)
+                if args.verbose:
+                    print('adapt',adapt,'lr',lr)
 
                 loss = 0.0
                 sen_loss = 0.0
