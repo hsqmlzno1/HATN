@@ -39,7 +39,7 @@ python extract_pivots.py --train --test -s [source_domain] -t [target_domain] -v
 ```
 python train_hatn.py --train --test -s [source_domain] -t [target_domain] -v [verbose]
 ```
-#### Training over all transfer paris
+#### Training over all transfer pairs
 ```
 ./all_train_hatn.sh
 ```
