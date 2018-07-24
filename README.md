@@ -2,6 +2,11 @@
 
 Data and source code for our AAAI'18 paper "[Hierarchical Attention Transfer Network for Cross-domain Sentiment Classification](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16873/16149)". 
 
+# Environment
++ OS: CentOS Linux release 7.5.1804
++ GPU: NVIDIA TITAN Xp
++ CUDA: 8.0
+
 # Requirements
 + Python 2.7.5
 
@@ -13,10 +18,6 @@ Data and source code for our AAAI'18 paper "[Hierarchical Attention Transfer Net
 
 + [Google Word2Vec](https://code.google.com/archive/p/word2vec/)
 
-# Environment
-+ OS: CentOS Linux release 7.5.1804
-+ GPU: NVIDIA TITAN Xp
-+ CUDA: 8.0
 
 # Running
 Before you get started, please make sure to add the following to your ~/.bashrc:
