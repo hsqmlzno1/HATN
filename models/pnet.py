@@ -7,6 +7,7 @@ import tensorflow.contrib.layers as layers
 import architectures
 import numpy as np
 from sklearn import metrics
+import os
 
 from flip_gradient import flip_gradient
 import nn_utils
@@ -106,21 +107,6 @@ class PNet(object):
 
         return loss
 
-    def fc_layer(self, inputs, output_dim=None, activation=None, scope=None, reuse=False):
-
-        with tf.variable_scope(scope, reuse=reuse):
-
-            _, embed_dim = inputs.shape.as_list()
-            W_fc = tf.get_variable(shape=[embed_dim, output_dim], name='W_fc', dtype=tf.float32)
-            b_fc = tf.get_variable(shape=[output_dim], name='b_fc', dtype=tf.float32)
-
-            if activation != None:
-                outputs = activation(tf.matmul(inputs, W_fc) + b_fc)
-            else:
-                outputs = tf.matmul(inputs, W_fc) + b_fc
-
-        return outputs
-
     def create_train_op(self):
 
         with tf.name_scope('train'):
@@ -175,8 +161,11 @@ class PNet(object):
     def initialize_session(self, sess):
         sess.run(tf.global_variables_initializer())
         self.saver = tf.train.Saver()
+
+        output_dir = "./work/models/"
+        if not os.path.exists(output_dir):
+            os.mkdir(output_dir)
         self.save_path="./work/models/" + self.args.source_domain + '_' + self.args.target_domain + "_PNet.ckpt"
-        print(self.save_path)
 
     def save_model(self, sess):
         self.saver.save(sess, self.save_path)

@@ -47,6 +47,10 @@ def load_data(source_domain, target_domain, root_path):
     vocab = getVocab(train_data + val_data + test_data + source_unlabeled_data + target_unlabeled_data)
     print "vocab-size: ", len(vocab)
 
+    output_dir = "./work/logs/"
+    if not os.path.exists(output_dir):
+        os.mkdir(output_dir)
+
     return train_data, val_data, test_data, source_unlabeled_data, target_unlabeled_data, vocab
 
 def get_review(f, domain, label):
@@ -138,6 +142,10 @@ def get_w2vec(vocab, FLAGS):
     return W, word_idx_map, idx_word_map
 
 def store_results(fname, source_domain, target_domain, test_acc):
+
+    output_dir = "./work/results/"
+    if not os.path.exists(output_dir):
+        os.mkdir(output_dir)
 
     f = open('./work/results/%s_results.txt' % fname, "a")
     f.write('{:<20} {:.4f} \n'.format(source_domain+'-'+target_domain, test_acc))

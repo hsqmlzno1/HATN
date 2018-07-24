@@ -113,6 +113,10 @@ def create_input(reviews, word_masks, sent_masks, labels, u_labels, v_labels, ba
 
 def visualization(reviews, y_label, y_pred, u_labels, v_labels, word_attentions1, sentence_attentions1, word_attentions2, sentence_attentions2, word_mask, sentence_mask, idx2word, domain, mode):
 
+    output_dir = "./work/attentions/"
+    if not os.path.exists(output_dir):
+        os.mkdir(output_dir)
+
     fname = "./work/attentions/" + domain + "_" + mode +"_HATN.txt"
     print(fname)
 

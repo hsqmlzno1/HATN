@@ -7,6 +7,7 @@ import tensorflow.contrib.layers as layers
 import architectures
 import numpy as np
 from sklearn import metrics
+import os
 
 from flip_gradient import flip_gradient
 import nn_utils
@@ -210,8 +211,11 @@ class HATN(object):
     def initialize_session(self, sess):
         sess.run(tf.global_variables_initializer())
         self.saver = tf.train.Saver()
+
+        output_dir = "./work/models/"
+        if not os.path.exists(output_dir):
+            os.mkdir(output_dir)
         self.save_path="./work/models/" + self.args.source_domain + '_' + self.args.target_domain + "_HATN.ckpt"
-        print(self.save_path)
 
     def save_model(self, sess):
         self.saver.save(sess, self.save_path)

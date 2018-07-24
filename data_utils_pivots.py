@@ -62,6 +62,10 @@ def visualization(reviews, y_label, y_pred, word_attentions, sentence_attentions
 
     pos_list = ['JJ','JJS','JJR','RB','RBS','RBR','VB','VBZ','VBD','VBN','VBG','VBP']
 
+    output_dir = "./work/attentions/"
+    if not os.path.exists(output_dir):
+        os.mkdir(output_dir)
+
     fname = "./work/attentions/" + domain + "_" + mode +".txt"
     print(fname)
 
@@ -137,6 +141,10 @@ def visualization(reviews, y_label, y_pred, word_attentions, sentence_attentions
     return pos_pivots, neg_pivots
 
 def store_pivots(pos_pivots, neg_pivots, domain):
+
+    output_dir = "./work/pivots/"
+    if not os.path.exists(output_dir):
+        os.mkdir(output_dir)
 
     fname = "./work/pivots/" + domain +"_pos.txt"
     print(fname)

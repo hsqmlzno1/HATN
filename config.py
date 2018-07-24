@@ -10,7 +10,7 @@ tf.flags.DEFINE_float("learning_rate", 1e-4, "Learning rate for Adam Optimizer."
 tf.flags.DEFINE_float("epsilon", 1e-8, "Epsilon value for Adam Optimizer.")
 tf.flags.DEFINE_float("max_grad_norm", 40.0, "Clip gradients to this norm.")
 tf.flags.DEFINE_float("l2_reg_lambda", 0.005, "L2 regularizaion lambda")
-tf.flags.DEFINE_integer("max_epoch", 100, "Number of epochs to train for.")
+tf.flags.DEFINE_integer("max_epoch", 100, "Number of epochs to train.")
 tf.flags.DEFINE_integer("evaluation_interval", 1, "Evaluate and print results every x epochs.")
 flags.DEFINE_integer("patience", 5, "number of eval steps to be patient for early stopping")
 
