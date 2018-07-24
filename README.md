@@ -28,18 +28,18 @@ export PYTHONPATH=/path/to/HATN:$PYTHONPATH
 
 Centos:
 ```
-setenv PYTHONPATH=/path/to/HATN
+setenv PYTHONPATH /path/to/HATN
 ```
 
-### Individual attention learning
+#### Individual attention learning
 ```
 python extract_pivots.py --train --test -s [source_domain] -t [target_domain] -v [verbose]
 ```
-### Joint attention learning
+#### Joint attention learning
 ```
 python train_hatn.py --train --test -s [source_domain] -t [target_domain] -v [verbose]
 ```
-### Training over all transfer paris
+#### Training over all transfer paris
 ```
 ./all_train_hatn.sh
 ```
