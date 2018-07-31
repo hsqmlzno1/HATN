@@ -32,7 +32,7 @@ setenv PYTHONPATH /path/to/HATN
 ```
 
 ### Individual attention learning: 
-The goal is to automatically capture pos/neg pivots as a bridge across domains based on PNet, which provides the inputs and labels for NPnet. If the pivots are already obtained, you can ignore this step.
+The goal is to automatically capture pos/neg pivots as a bridge across domains based on PNet (similar with AMN), which provides the inputs and labels for NPnet. If the pivots are already obtained, you can ignore this step.
 
 ```
 python extract_pivots.py --train --test -s dvd [source_domain] -t electronics [target_domain] -v [verbose]
@@ -58,5 +58,14 @@ If the data and code are useful for your research, please cite our paper as foll
 	title = {Hierarchical Attention Transfer Network for Cross-Domain Sentiment Classification},
 	conference = {AAAI Conference on Artificial Intelligence},
 	year = {2018},
+}
+```
+
+```
+@inproceedings{li2017end,
+  title={End-to-end adversarial memory network for cross-domain sentiment classification},
+  author={Li, Zheng and Zhang, Yu and Wei, Ying and Wu, Yuxiang and Yang, Qiang},
+  booktitle={Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI 2017)},
+  year={2017}
 }
 ```
