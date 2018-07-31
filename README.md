@@ -32,7 +32,7 @@ setenv PYTHONPATH /path/to/HATN
 ```
 
 ### Individual attention learning: 
-The goal is to automatically capture pos/neg pivots as a bridge across domains based on PNet (similar with AMN), which provides the inputs and labels for NPnet. If the pivots are already obtained, you can ignore this step.
+The goal is to automatically capture pos/neg pivots as a bridge across domains based on PNet (similar with [AMN](https://www.ijcai.org/proceedings/2017/0311.pdf), which provides the inputs and labels for NPnet. If the pivots are already obtained, you can ignore this step.
 
 ```
 python extract_pivots.py --train --test -s dvd [source_domain] -t electronics [target_domain] -v [verbose]
