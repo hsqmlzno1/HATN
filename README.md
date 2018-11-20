@@ -19,17 +19,6 @@ Data and source code for our AAAI'18 paper "[Hierarchical Attention Transfer Net
 + CUDA: 8.0
 
 # Running
-Before you get started, please make sure to add the following to your ~/.bashrc:
-
-Linux:
-```
-export PYTHONPATH=/path/to/HATN:$PYTHONPATH
-```
-
-Centos:
-```
-setenv PYTHONPATH /path/to/HATN
-```
 
 ### Individual attention learning: 
 The goal is to automatically capture pos/neg pivots as a bridge across domains based on PNet, which provides the inputs and labels for NPnet. If the pivots are already obtained, you can ignore this step.
@@ -47,6 +36,36 @@ python train_hatn.py --train --test -s dvd [source_domain] -t electronics [targe
 ```
 ./all_train.sh
 ```
+
+# Results
+
+The results are obtained under ramdom seed 0 in this implementation.
+
+
+| Task  | P-net  | HATN_h (full model) |
+ :-: | :-: | :-:
+| books-dvd           | 0.8722 | 0.8770 |
+| books-electronics   | 0.8388 | 0.8620 |
+| books-kitchen       | 0.8518 | 0.8708 |
+| books-video         | 0.8728 | 0.8735 |
+| dvd-books           | 0.8783 | 0.8802 |
+| dvd-electronics     | 0.8393 | 0.8678 |
+| dvd-kitchen         | 0.8467 | 0.8700 |
+| dvd-video           | 0.8822 | 0.8897 |
+| electronics-books   | 0.8328 | 0.8362 |
+| electronics-dvd     | 0.8340 | 0.8387 |
+| electronics-kitchen | 0.9010 | 0.9012 |
+| electronics-video   | 0.8352 | 0.8345 |
+| kitchen-books       | 0.8398 | 0.8483 |
+| kitchen-dvd         | 0.8357 | 0.8473 |
+| kitchen-electronics | 0.8807 | 0.8908 |
+| kitchen-video       | 0.8370 | 0.8403 |
+| video-books         | 0.8682 | 0.8748 |
+| video-dvd           | 0.8737 | 0.8760 |
+| video-electronics   | 0.8347 | 0.8585 |
+| video-kitchen       | 0.8463 | 0.8602 |
+| Average		         | 0.8551 | 0.8649 |
+
 
 # Citation
 
