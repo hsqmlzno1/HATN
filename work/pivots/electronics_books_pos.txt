@@ -1,7 +1,7 @@
 great 341
 good 211
 excellent 149
-easy 122
+easy 123
 best 115
 works 74
 perfect 40

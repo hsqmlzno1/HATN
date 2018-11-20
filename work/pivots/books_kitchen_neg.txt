@@ -47,6 +47,7 @@ tiresome 6
 insulting 6
 worthless 6
 trying 6
+dull 6
 sorry 5
 choppy 5
 unbelievable 5
@@ -64,4 +65,3 @@ overrated 5
 biased 5
 inaccurate 5
 hackneyed 5
-dull 5

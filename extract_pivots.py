@@ -5,6 +5,8 @@ import matplotlib
 matplotlib.use('Agg')
 from sklearn import metrics
 import argparse
+import sys
+sys.path.insert(0, 'models')
 
 from config import *
 from data_utils_pivots import *

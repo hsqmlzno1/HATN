@@ -1,5 +1,5 @@
 returned 111
-return 96
+return 95
 poor 68
 worst 50
 disappointed 40
@@ -17,9 +17,9 @@ bad 21
 unreliable 20
 failed 20
 cheap 18
-broke 18
 unacceptable 17
 terrible 17
+broke 16
 hard 15
 overpriced 15
 impossible 14
@@ -37,7 +37,6 @@ uncomfortable 8
 difficult 8
 short 7
 defective 7
-slow 7
 unhappy 7
 waste 7
 annoying 7
@@ -45,6 +44,7 @@ stay 7
 lousy 6
 unusable 6
 wasted 6
+slow 6
 spent 6
 lose 6
 incompatible 5

@@ -2,7 +2,7 @@ good 194
 best 192
 excellent 147
 great 134
-funny 62
+funny 61
 enjoyable 54
 nice 48
 entertaining 37

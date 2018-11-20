@@ -7,7 +7,7 @@ disappointing 58
 terrible 55
 awful 53
 disappointed 37
-dull 26
+dull 27
 wasted 22
 annoying 22
 stupid 16
@@ -29,9 +29,9 @@ poorly 11
 disgusting 11
 contrived 11
 slow 10
-sorry 9
 unoriginal 9
 dissapointed 9
+sorry 8
 atrocious 8
 crappy 8
 pointless 8

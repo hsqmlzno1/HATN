@@ -2,7 +2,7 @@ best 185
 good 154
 excellent 129
 great 126
-funny 75
+funny 74
 enjoyable 55
 entertaining 50
 classic 39
@@ -20,7 +20,7 @@ wonderful 20
 sad 20
 perfect 19
 favorite 18
-brilliant 17
+brilliant 16
 interesting 15
 superb 14
 finest 13

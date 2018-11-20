@@ -126,13 +126,13 @@ class batch_generator(object):
         self.batch_counter += 1
         reviews_slice = self.reviews[self.idx[start: end]]
 
-        if self.word_mask != None:
+        if self.word_mask is not None:
             word_mask_slice = self.word_mask[self.idx[start:end]]
             sent_mask_slice =self.sent_mask[self.idx[start:end]]
 
             return reviews_slice, word_mask_slice, sent_mask_slice
 
-        elif self.labels != None:
+        elif self.labels is not None:
             labels_slice = self.labels[self.idx[start:end]]
 
             return reviews_slice, labels_slice

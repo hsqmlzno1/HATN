@@ -1,5 +1,5 @@
 disappointing 92
-boring 58
+boring 59
 poorly 54
 disappointed 49
 horrible 39
@@ -72,4 +72,3 @@ biased 5
 inaccurate 5
 hackneyed 5
 wasting 5
-pointless 5

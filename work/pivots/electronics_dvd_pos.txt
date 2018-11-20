@@ -46,5 +46,6 @@ expected 5
 effective 5
 loves 5
 clear 5
+slick 5
 well 5
 ultimate 5

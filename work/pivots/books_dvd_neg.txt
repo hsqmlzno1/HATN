@@ -38,13 +38,13 @@ trite 8
 uninteresting 8
 disjointed 8
 sloppy 7
-tiresome 7
 predictable 7
 silly 7
 dissapointed 7
 absurd 7
 sorry 6
 wrong 6
+tiresome 6
 impossible 6
 insulting 6
 worthless 6

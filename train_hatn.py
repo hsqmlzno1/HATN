@@ -7,6 +7,8 @@ from numpy import *
 import argparse
 import matplotlib
 matplotlib.use('Agg')
+import sys
+sys.path.insert(0, 'models')
 
 from data_utils_hatn import *
 from models import HATN

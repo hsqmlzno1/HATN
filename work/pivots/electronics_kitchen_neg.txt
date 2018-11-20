@@ -1,6 +1,6 @@
 returned 115
 poor 84
-return 82
+return 81
 worst 50
 disappointed 40
 disappointing 38
@@ -12,11 +12,11 @@ bad 27
 returning 23
 terrible 23
 poorly 22
-awful 22
 wrong 22
 cheap 22
 failed 22
-broke 20
+broke 21
+awful 21
 unreliable 20
 worthless 19
 unacceptable 17
@@ -37,12 +37,12 @@ difficult 8
 save 8
 uncomfortable 7
 wasted 7
-slow 7
 unhappy 7
 weak 7
 ok 7
 stay 7
 lousy 6
+slow 6
 lose 6
 trying 6
 goes 5

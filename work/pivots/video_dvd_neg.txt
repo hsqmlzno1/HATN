@@ -36,7 +36,6 @@ uncooked 7
 pretentious 7
 laughable 7
 pointless 7
-waste 7
 unbelievable 7
 contrived 7
 saves 6
@@ -47,6 +46,7 @@ cheesy 6
 low 6
 hard 6
 unrealistic 6
+waste 6
 unlikeable 6
 mediocre 6
 amusing 5
