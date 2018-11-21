@@ -19,7 +19,7 @@ tf.flags.DEFINE_integer("memory_size", 20, "Maximum memory size.")
 tf.flags.DEFINE_integer("sent_size", 25, "Maximum sentence size.")
 tf.flags.DEFINE_integer("embed_size", 300, "Embedding size.")
 tf.flags.DEFINE_integer("hidden_size", 300, "Hidden size.")
-tf.flags.DEFINE_integer("hops", 1, "Number of hops in the for word/sentence attention layer.")
+tf.flags.DEFINE_integer("hops", 1, "Number of hops for the word/sentence attention layer.")
 
 # ************** source configuration **************
 tf.flags.DEFINE_string("data_path", "./data/", "Data path")
