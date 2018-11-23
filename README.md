@@ -3,7 +3,7 @@
 Data and source code for our AAAI'18 paper "[Hierarchical Attention Transfer Network for Cross-domain Sentiment Classification](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16873/16149)", which is an extension of our IJCAI'17 paper "[End-to-End Adversarial Memory Network for Cross-domain Sentiment Classification](https://www.ijcai.org/proceedings/2017/0311.pdf)". 
 
 # Demo Video
-Watch a demo of visualization of attention transfer. [![Click the picture](https://github.com/hsqmlzno1/HATN/raw/master/demo.png)](https://hsqmlzno1.github.io/assets/video/hatn_visualization.mp4).
+Watch a demo about visualization of attention transfer. Click the picture => [![](https://github.com/hsqmlzno1/HATN/raw/master/demo.png)](https://hsqmlzno1.github.io/assets/video/hatn_visualization.mp4).
 
 # Requirements
 + Python 2.7.5
