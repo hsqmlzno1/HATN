@@ -72,7 +72,7 @@ The results are obtained under ramdom seed 0 in this implementation.
 
 # Citation
 
-If the data and code are useful for your research, please cite our paper as follows:
+If the data and code are useful for your research, please be kindly to give us stars and cite our paper as follows:
 
 ```
 @inproceedings{li2018hatn,
