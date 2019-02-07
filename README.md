@@ -16,15 +16,15 @@ Click the picture for watching a demo about visualization of attention transfer.
 
 + [Google Word2Vec](https://code.google.com/archive/p/word2vec/)
 
-# Tips for small setting
-1. It would be better to use smaller batch size like bs=20.
-2. Removing hierarchical position embeddings, which are data-driven.
-3. Use some regurizations like dropout to avoid overfitting.
-
 # Environment
 + OS: CentOS Linux release 7.5.1804
 + GPU: NVIDIA TITAN Xp
 + CUDA: 8.0
+
+# Tips for small setting
+1. It would be better to use smaller batch size like bs=20.
+2. Removing hierarchical position embeddings, which are data-driven.
+3. Use some regurizations like dropout to avoid overfitting.
 
 # Running
 
