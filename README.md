@@ -21,7 +21,7 @@ Click the picture for watching a demo about visualization of attention transfer.
 + GPU: NVIDIA TITAN Xp
 + CUDA: 8.0
 
-# Tips for small setting
+# Tips for Amazon small setting
 1. It would be better to use smaller batch size like bs=20.
 2. Removing hierarchical position embeddings, which are data-driven.
 3. Use some regurizations like dropout to avoid overfitting.
